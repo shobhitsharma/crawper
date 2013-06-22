@@ -1,4 +1,4 @@
 phantomjs-scraper
 =================
 
-Web Scraper/Crawler/Spider with node and phantomjs
+Web Scraper/Crawler/Spider with node and phantomjs.
