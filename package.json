@@ -1,0 +1,41 @@
+{
+    "name": "phantomjs-scraper",
+    "version": "0.0.1",
+    "description": "Web crawler/scraper with node and phantomjs",
+    "main": "index.js",
+    "directories": {
+        "test": "test"
+    },
+    "scripts": {
+        "test": "node server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ShobhitSharma/phantomjs-scraper.git"
+    },
+    "keywords": [
+        "phantomjs",
+        "node",
+        "scraper",
+        "pool"
+    ],
+    "author": "Shobhit Sharma",
+    "license": "BSD",
+    "readmeFilename": "README.md",
+    "gitHead": "8f615a44b59a4b501774a81082294225ed1ba969",
+    "bugs": {
+        "url": "https://github.com/ShobhitSharma/phantomjs-scraper/issues"
+    },
+    "dependencies": {
+        "async": "0.2.x",
+        "phantomjs": "1.8.2-2",
+        "phantom": "~0.5.1",
+        "socket.io": ">=0.9.2",
+        "generic-pool": "~2.0.3"
+    },
+    "devDependencies": {"socket.io": ">=0.9.2"},
+    "optionalDependencies": {},
+    "engines": {
+        "node": "*"
+    }
+}
