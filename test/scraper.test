@@ -1,0 +1,21 @@
+describe('Scraper', function() {
+    this.timeout(20000);
+    var assert = require('assert');
+    var Scraper = require('../lib').Scraper;
+    var scraper = new Scraper({ debug: true, loadImages: 'no' });
+
+    describe('#cssSelector()', function() {
+        var query = 'justin bieber';
+        it('should successfully scrape twitter suggestions for "' + query + '"', function(done) {
+
+            var url = 'https://twitter.com/search?q=' + query + '&src=typd';
+            var selector = '.js-nav.related-query';
+
+            scraper.pageReady(query, url, selector, function(err, result) {
+                if (err) return done(err);
+                console.log(result);
+                done();
+            });
+        });
+    });
+
