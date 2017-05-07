@@ -33,7 +33,7 @@
         "socket.io": ">=0.9.2",
         "generic-pool": "~3.1.0"
     },
-    "devDependencies": {"socket.io": ">=0.9.2"},
+    "devDependencies": {"socket.io": ">=1.7.4"},
     "optionalDependencies": {},
     "engines": {
         "node": "*"
